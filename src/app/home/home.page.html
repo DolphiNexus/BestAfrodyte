@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar class="header">
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-menu-button>
+    </ion-buttons>
+
+    <ion-buttons slot="end">
+      <ion-button [routerLink]="['/new-task']">
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<br>
+
+<ion-content>
+
+<!-- Hat -->
+<img id="hat" src="https://strattonhats.com/wp-content/uploads/S36.jpg">
+
+<!-- Shirt -->
+<img id="shirt" src="https://kathmandu.imgix.net/catalog/product/1/5/15109_fedshirt_v3_a_nd6.jpg">
+
+<!-- Pants -->
+<img id="pants" src="https://kmd-assets.imgix.net/catalog/product/a/0/a0501_510_nduropant_m_a.jpg?auto=format&fit=crop&q=30&dpr=2">
+
+<!-- Shoes -->
+<img id="shoes" src="https://tshop.r10s.com/9a9/ea0/ff8c/8e6d/1084/7ba8/0277/1195e9ad0f0242ac110002.jpg">
+
+<button (click)="changeElements()">Create Outfit!</button>
+
+</ion-content>
+

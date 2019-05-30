@@ -1,0 +1,44 @@
+.header{
+  --background: #FF6961;
+  --color: #FFFFFF;
+}
+
+.my-custom-menu {
+  --width: 500px;
+}
+
+button {
+  position: absolute;
+  top: 94%;
+  width: 100%;
+  left: 0;
+  background-color: #03c03c;
+  color: white;
+  height: 6%;
+  font-weight: bold;
+}
+
+img {
+  overflow: hidden;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#hat {
+  height: 10%;
+}
+
+#shirt {
+  height: 25%;
+}
+
+#pants {
+  height: 30%;
+}
+
+#shoes {
+  height: 20%;
+}
